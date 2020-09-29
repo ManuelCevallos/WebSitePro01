@@ -141,7 +141,7 @@ nav ul li a {
 
 }
 
-.one-thir-padding{
+.one-third-padding{
     width: 29%;
     float: left;
     margin: 2% 2%;
@@ -150,4 +150,121 @@ nav ul li a {
 .clearfix-padding{
     clear: both;
     padding: 2%;
+}
+
+footer {
+    background-color: #2c3e50;
+    width: 100%;
+    overflow: auto;
+}
+
+.icon-text{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.icon-text-icon{
+    float: left;
+    width: 20%;
+    padding: 4%;
+}
+
+.icon.text-text{
+    float: left;
+    width: 60%;
+    padding: 4% 4% 2% 0;
+}
+
+.footer-nav {
+    text-align: right;
+}
+
+.footer-nav a {
+    font-size: 160%;
+    color: #c3d7df;
+    font-weight: 300;
+}
+
+.footer-nav a:hover{
+    color: #f5f5f5;
+}
+.social {
+    text-align: center;
+}
+
+.social li{
+    display: inline;
+}
+
+.social i{
+    font-size: 420%;
+    margin: 1%;
+    padding: 5%;
+    color: #c3d7df;
+}
+
+.footer-second{
+    border-top: 1px solid #aadcd2;
+    text-align: center;
+    margin: 0;
+}
+.footer-second p, .footer-second a {
+    text-align: center;
+    color: #fff;
+    font: 160%;
+    line-height: 155%;
+
+}
+
+@media screen and (max-width:768px){
+    p{
+        font-size: 120%;
+    }
+    h3{
+        font-size: 120%
+    }
+    header {
+        height: 80px;
+        position: relative;
+    }
+    header #logo{
+        margin: 15px 0 20px -25px;
+    }
+    #menu-icon{
+        display: inline-block;
+    }
+    nav:hover ul {
+        display: block;
+    }
+    nav ul, nav:active ul{
+        display: none;
+        z-index: 1000;
+        position: absolute;
+        padding: 20px;
+        background: #f5f5f5 ;
+        border: 1px solid #a5bdcd;
+        right:  20px;
+        width: 30%;
+        opacity: .95;
+    }
+    nav li{
+        text-align: center;
+        width: 100%;
+    }
+    .icon-wrap{
+        height: 80px;
+        width: 80px;
+        margin-top: 3%;
+    }
+    .icon-wrap i {
+        font-size: 250%;
+        padding-top: 27%;
+    }
+    .left-col {
+        width: 100%;
+        padding-top: 0%;
+    }
+    .sidebar{
+        width: 100%;
+    }
 }
