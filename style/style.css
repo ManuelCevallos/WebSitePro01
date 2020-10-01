@@ -114,7 +114,7 @@ nav ul li a {
 }
 .sidebar {
     float: right;
-    margin: 0 auto;
+    margin: 30 auto;
     width: 32%;
     height: auto;
     padding: 1%;
@@ -146,13 +146,13 @@ footer {
 .icon.text-text{
     float: left;
     width: 60%;
-    padding: 4% 4% 2% 0;
+    padding: 4% 4% 2% 0%;
 }
 .footer-nav {
     text-align: right;
 }
 .footer-nav a {
-    font-size: 160%;
+    font-size: 130%;
     color: #c3d7df;
     font-weight: 300;
 }
@@ -166,7 +166,7 @@ footer {
     display: inline;
 }
 .social i{
-    font-size: 420%;
+    font-size: 320%;
     margin: 1%;
     padding: 5%;
     color: #c3d7df;
@@ -250,7 +250,7 @@ footer {
     }
     .footer-nav{
         margin: 0 auto;
-        text-align: right;
+        text-align: left;
         padding: 5%;
     }
     .footer-nav li{
