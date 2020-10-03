@@ -196,6 +196,11 @@ footer {
     header #logo{
         margin: 15px 0 20px -25px;
     }
+    #logo a{
+        margin: 5px;
+        float: center ;
+        width: 60px;   
+    }
     #menu-icon{
         display: inline-block;
     }
