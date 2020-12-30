@@ -46,7 +46,7 @@ img {
 #banner-wrapper {
     max-width: 1200%;
     margin: 0 auto;
-    padding: 0 0 3% 0;
+    padding: 0 0 5% 0;
 }
 header {
     width: 100%;
@@ -55,9 +55,9 @@ header {
     left: 0;
 }
 header #logo img {
-    margin: 10px;
+    margin: 2px;
     float: left;
-    width: 120px;   
+    width: 200px;   
 }
 /*NAVIGATION*/
 nav {
